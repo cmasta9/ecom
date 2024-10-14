@@ -1,0 +1,160 @@
+body{
+    background-color: #dddddd;
+    color:#000000;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    display: block;
+}
+
+.dark{
+    background-color: #000000;
+    color: #dddddd;
+}
+
+h1{
+    text-align: center;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    background-color: forestgreen;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+    color: yellow;
+    list-style: none;
+    margin-right: 42px;
+    padding: 11px;
+    background-color: darkgreen;
+    border-radius: 10%;
+    transition: transform 0.2s;
+}
+
+.navbar li:hover{
+    cursor:pointer;
+    transform: scale(1.1,1.1);
+}
+
+.navbar a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.buffer{
+    width: 100%;
+    margin: auto;
+    padding: 42px;
+}
+
+.imgCont{
+    margin: auto;
+    width: fit-content;
+    max-width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imgCont img{
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+}
+
+.featem{
+    width: fit-content;
+    max-width: 200 px;
+    margin:auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.socon{
+    margin: auto;
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.socon img{
+    width: 42px;
+    padding: 30px;
+
+}
+
+.quote{
+    border: 5px;
+    border-style: ridge;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+}
+
+.iCont{
+    border: 5px;
+    border-style: groove;
+    border-radius: 42px;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    padding: 20px;
+    display: block;
+}
+
+.node{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #6900ee;
+    z-index: -1;
+}
+
+.node.dark{
+    background-color: #ffff00;
+}
+
+.string{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #0000ff;
+    z-index: -2;
+}
+
+.string.dark{
+    background-color: #ee6900;
+}
+
+table{
+    border-color: white;
+    border: 2px;
+    border-style: solid;
+    padding: 2px;
+    width: 88%;
+    margin: auto;
+}
+
+tr,td{
+    border-color: white;
+    border: 2px;
+    border-style: solid;
+    padding: 2px;
+}
